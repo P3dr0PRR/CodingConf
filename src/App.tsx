@@ -1,6 +1,7 @@
 import bg from "./assets/imgs/bg_Coding-Conf.png";
 
 import { Header } from "./components/header";
+import { About } from "./components/about";
 function App() {
   return (
     <main
@@ -8,6 +9,7 @@ function App() {
       style={{ backgroundImage: `url(${bg})` }}
     >
       <Header />
+      <About />
     </main>
   );
 }
