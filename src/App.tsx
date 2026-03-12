@@ -2,6 +2,7 @@ import bg from "./assets/imgs/bg_Coding-Conf.png";
 
 import { Header } from "./components/header";
 import { About } from "./components/about";
+import { Inputs } from "./components/inputs";
 function App() {
   return (
     <main
@@ -10,6 +11,7 @@ function App() {
     >
       <Header />
       <About />
+      <Inputs />
     </main>
   );
 }
