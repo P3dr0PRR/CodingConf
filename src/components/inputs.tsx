@@ -2,7 +2,7 @@ import upload from "../assets/imgs/upload.png";
 
 export function Inputs() {
   return (
-    <section className="w-full space-y-4 font-poppins">
+    <section className="w-full space-y-4 font-poppins lg:text-md xl:text-xl">
       <div className="flex flex-col items-center justify-centerp-4">
         <div className="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 rounded-md p-4 cursor-pointer bg-blue-800/50">
           <img src={upload} alt="Upload Avatar" className="h-12 mb-2" />
@@ -33,7 +33,7 @@ export function Inputs() {
       </div>
 
       <div className="justify-start text-white space-y-2">
-        <p>GitHub Username</p>
+        <p className="lg:text-md xl:text-xl">GitHub Username</p>
         <input
           type="text"
           placeholder="@yourusername"
